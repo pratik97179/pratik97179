@@ -1,4 +1,4 @@
-[![MasterHead](https://i.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.webp)](https://www.javascript.com/)
+[![MasterHead](https://res.cloudinary.com/practicaldev/image/fetch/s--goETGOXU--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/x3x5w638kkixi9s3h3vw.gif)](https://www.javascript.com/)
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=pratik97179&label=Profile%20views&color=0e75b6&style=flat" alt="pratik97179" /> </p>
 <br />
