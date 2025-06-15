@@ -4,7 +4,7 @@
 <br />
 
 <h2 align="center">Hi 👋, I'm Pratik Nath Tiwari</h2>
-<h4 align="center">Software Engineer at <a href="https://www.techalchemy.com/">Tech Alchemy</a>. Passionate Flutter and Web developer, I thrive on turning ideas into interactive, user-friendly experiences.</h4>
+<h4 align="center">Software Engineer at <a href="https://www.5paisa.com/">5paisa Capital Ltd.</a>. Passionate Flutter and Web developer, I thrive on turning ideas into interactive, user-friendly experiences.</h4>
 
 ## 💫 About Me
 - 🔭 I’m currently working on **building responsive and intuitive web applications**.
