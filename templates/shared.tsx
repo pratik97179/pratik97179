@@ -149,10 +149,10 @@ export function SectionLabel({ children }: { children: ReactNode }) {
       style={{
         display: "flex",
         fontFamily: theme.fonts.mono,
-        fontSize: 11,
-        fontWeight: 500,
-        letterSpacing: 1.8,
-        color: theme.colors.muted,
+        fontSize: 14,
+        fontWeight: 600,
+        letterSpacing: 1.6,
+        color: theme.colors.foreground,
       }}
     >
       {text}
