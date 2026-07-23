@@ -1,0 +1,51 @@
+name: Generate profile
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - "content/**"
+      - "templates/**"
+      - "scripts/**"
+      - "assets/fonts/**"
+      - "package.json"
+      - "bun.lock"
+  workflow_dispatch:
+  schedule:
+    # Future automation hooks (blog, status, etc.)
+    - cron: "0 6 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install
+        run: bun install --frozen-lockfile
+
+      - name: Generate assets
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bun run generate
+
+      - name: Commit generated output
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add generated README.md
+          if git diff --staged --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git commit -m "chore: regenerate profile assets"
+          git push

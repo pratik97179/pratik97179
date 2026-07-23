@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GitHub Profile Preview</title>
+    <style>
+      :root {
+        color-scheme: dark;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: #111111;
+        color: #d8d8d8;
+        font-family:
+          ui-sans-serif,
+          system-ui,
+          -apple-system,
+          Segoe UI,
+          sans-serif;
+      }
+      .page {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 32px 16px 64px;
+      }
+      .meta {
+        margin-bottom: 24px;
+        color: #8b949e;
+        font-size: 13px;
+        line-height: 1.5;
+      }
+      .meta code {
+        color: #e6edf3;
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 6px;
+        padding: 1px 6px;
+      }
+      .readme {
+        background: #111111;
+        padding: 0;
+      }
+      .readme img {
+        display: block;
+        width: 720px;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+      }
+      a.writing-link {
+        display: block;
+        width: 720px;
+        max-width: 100%;
+        margin: 0 auto;
+        line-height: 0;
+      }
+      a.writing-link img {
+        margin: 0;
+      }
+      .links {
+        display: flex;
+        width: 720px;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 4.444%;
+        box-sizing: border-box;
+        gap: 0;
+      }
+      .links a {
+        display: block;
+        flex: 1 1 0;
+        min-width: 0;
+        line-height: 0;
+      }
+      .links img {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <div class="meta">
+        Local GitHub README preview. Refresh after
+        <code>bun run generate</code>.
+      </div>
+      <div class="readme">
+        <img src="./generated/hero.svg" alt="Hero" />
+        <img src="./generated/stack.svg" alt="Tech stack" />
+        <img src="./generated/exploring.svg" alt="Exploring" />
+        <img src="./generated/projects.svg" alt="Selected projects" />
+        <img src="./generated/contributions.svg" alt="Contributions" />
+        <img src="./generated/writing-header.svg" alt="Writing" />
+        <a
+          class="writing-link"
+          href="https://medium.com/@pratiknathtiwari/hybrid-state-management-in-flutter-why-i-mix-patterns-and-when-you-shouldnt-909adc1c2b08"
+          ><img
+            src="./generated/writing-0.svg"
+            alt="Hybrid State Management in Flutter"
+        /></a>
+        <a
+          class="writing-link"
+          href="https://medium.com/@pratiknathtiwari/provider-as-a-scoped-dependency-propagation-mechanism-080390f90c45"
+          ><img
+            src="./generated/writing-1.svg"
+            alt="Provider as a Scoped Dependency Propagation Mechanism"
+        /></a>
+        <a
+          class="writing-link"
+          href="https://medium.com/@pratiknathtiwari/probabilistic-code-generation-with-ai-a-smarter-way-to-build-software-fc08f9d008bc"
+          ><img
+            src="./generated/writing-2.svg"
+            alt="Probabilistic Code Generation with AI"
+        /></a>
+        <a
+          class="writing-link"
+          href="https://medium.com/@pratiknathtiwari/mastering-the-s-o-l-i-d-principles-c286c88fcb05"
+          ><img
+            src="./generated/writing-3.svg"
+            alt="Mastering the S.O.L.I.D Principles"
+        /></a>
+        <div class="links">
+          <a href="https://github.com/pratik97179"
+            ><img src="./generated/link-github.svg" alt="GitHub"
+          /></a>
+          <a href="https://www.linkedin.com/in/pratiknathtiwari"
+            ><img src="./generated/link-linkedin.svg" alt="LinkedIn"
+          /></a>
+          <a href="https://medium.com/@pratiknathtiwari"
+            ><img src="./generated/link-medium.svg" alt="Medium"
+          /></a>
+          <a href="mailto:prateek.infinite.370@gmail.com"
+            ><img src="./generated/link-email.svg" alt="Email"
+          /></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

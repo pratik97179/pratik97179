@@ -1,0 +1,21 @@
+{
+  "name": "github-profile",
+  "module": "scripts/generate.tsx",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "generate": "bun run scripts/generate.tsx",
+    "fonts": "bun run scripts/fetch-fonts.ts",
+    "dev": "bun run generate"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.14",
+    "@types/react": "^19.2.17",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "react": "^19.2.8",
+    "satori": "^0.28.2"
+  }
+}
