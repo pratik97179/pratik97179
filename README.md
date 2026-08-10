@@ -15,6 +15,10 @@
 </div>
 
 <div align="center">
+  <img src="./generated/contributions.svg" width="720" alt="GitHub contributions" />
+</div>
+
+<div align="center">
   <img src="./generated/writing-header.svg" width="720" alt="Writing" />
 </div>
 
